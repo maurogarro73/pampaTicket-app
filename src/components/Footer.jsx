@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div>
-          <a href="index.html">@ 2022 | Todos los derechos reservados | Hecho por Mauro Garro</a>
+        <div className="footer">
+          <a href="#index">@ 2022 | Todos los derechos reservados | Hecho por Mauro Garro</a>
         </div>
       </footer>
     </>

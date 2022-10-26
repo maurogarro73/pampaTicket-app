@@ -1,27 +1,27 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import CartWidget from './CartWidget';
 
-export default function Navbar() {
+export default function NavBar() {
   return (
     <>
-      <header>
-        <nav>
-          <div>
-            <ul>
-              <li>
-                <a href="_">Inicio</a>
-              </li>
-              <li>
-                <a href="_">Productos</a>
-              </li>
-              <li>
-                <a href="_">Nosotros</a>
-              </li>
-            </ul>
-          </div>
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">Pampa-Ticket</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+            <Nav className="">
+              <Nav.Link href="#inicio">Inicio</Nav.Link>
+              <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+              <Nav.Link href="#productos">Productos</Nav.Link>
+              <Nav.Link href="#contacto">Contacto</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
           <CartWidget />
-        </nav>
-      </header>
+        </Container>
+      </Navbar>
     </>
   );
 }

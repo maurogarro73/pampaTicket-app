@@ -1,13 +1,13 @@
 import './App.css';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
-import Navbar from './components/Navbar';
+import NavBar from './components/Navbar';
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <ItemListContainer />
+      <NavBar />
+      <ItemListContainer greeting={'Holaa!!'} />
       <Footer />
     </>
   );

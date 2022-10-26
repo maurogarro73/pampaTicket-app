@@ -1,0 +1,28 @@
+.footer {
+  background-color: #273440;
+  text-align: center;
+  color: #f0f0f0;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: bisque;
+}
+
+.greeting {
+  width: 100%;
+}
+
+.greeting h2 {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
