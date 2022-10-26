@@ -21,8 +21,8 @@ export default function NavBar() {
               <Nav.Link href="#productos">Productos</Nav.Link>
               <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
+            <CartWidget />
           </Navbar.Collapse>
-          <CartWidget />
         </Container>
       </Navbar>
     </>
